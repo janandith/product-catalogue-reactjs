@@ -19,6 +19,38 @@
   color: white;
 }
 
+.InputForm {
+  width: 20%;
+}
+
+.Products h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.Products ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.Products li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.Products a {
+  text-decoration: none;
+  color: black;
+}
+
+.Products a:hover, 
+.Products a:active {
+  color: cadetblue;
+}
+
 .App-link {
   color: #61dafb;
 }

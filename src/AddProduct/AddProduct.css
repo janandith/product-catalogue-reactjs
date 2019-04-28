@@ -1,0 +1,46 @@
+.AddProduct {
+    width: 40%;
+    margin: 5% 30% auto 30%;
+    display: inline-block;
+    text-align: center;
+    border-style: none;
+    border: 1px solid #eeeeee;
+    box-shadow: 1px;
+}
+
+.AddProduct div {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.AddProduct label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.AddProduct input, textarea {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.AddProduct button {
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.AddProduct button:disabled {
+    color: rgb(82, 72, 72);
+    cursor: not-allowed;
+}
